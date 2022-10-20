@@ -1,0 +1,70 @@
+.page-holder {
+    margin: 0% 2%;
+    margin-bottom: 2%;
+    color: rgb(55, 70, 89);
+    border: none;
+    border-collapse: collapse;
+    text-align: left;
+    border-spacing: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead {
+    background-color: rgb(246, 248, 250);
+    padding: 0.5em 1em;
+    border-bottom: 1px solid black;
+}
+
+tbody {
+    background-color: rgb(255, 255, 255);
+}
+
+tbody tr {
+    border-bottom: 1px solid lightgray;
+}
+
+
+th {
+    border-bottom: 1px solid rgb(134, 132, 132);
+    height: 1em;
+    font-size: small;
+    padding: 0.7em 1.5em;
+}
+
+td {
+    font-size: small;
+    padding: 0.7em 1.5em;
+}
+
+body tr:hover {
+    background-color: #dae3ee;
+} 
+
+.filter {
+    margin: 2% auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.filter label{
+    margin-bottom: 6px;
+}
+
+.page-holder caption {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.chooseBox{
+    border: 1px transparent;
+    border-radius: 4px;
+    background-color: #dae3ee;
+    text-align: center;
+}
+
+
+.AddNewContact button {
+    margin-left: 5%;
+}

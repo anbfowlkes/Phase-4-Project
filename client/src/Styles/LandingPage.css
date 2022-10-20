@@ -1,0 +1,97 @@
+.landing-page {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    font-family: Verdana;
+}
+
+.landing-page h2 {
+    /* position: absolute;
+    bottom: 0px; */
+    margin: 0px;
+    text-align: left;
+    margin-left: 3%;
+    padding-left: 3%;
+}
+
+.summary{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin:3%;
+    margin-top: 0%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    justify-content: space-between;
+}
+
+
+
+#company-summary {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+#company-first-div{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 18px;
+}
+
+#company-second-div{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 18px;
+}
+
+#company-third-div{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 18px;
+}
+
+.landing-card {
+    background-color: white;
+    padding: 1.5em;
+    margin: 1.5em;
+    min-width: 400px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 0px 1px 2px gray;
+    display: flex;
+    flex-direction: row;
+}
+
+.landing-card p {
+    text-align: left;
+    font-size: 20px;
+    width: 50%;
+}
+
+.landing-card div{
+    width: 30%;
+    margin-left: 5%;
+}
+
+#company-first-div .landing-card  {
+    min-width: 200px;
+}
+
+#company-second-div .landing-card  {
+    min-width: 500px;
+}
+
+.svg {
+    width: 100px;
+    fill: blue
+}
